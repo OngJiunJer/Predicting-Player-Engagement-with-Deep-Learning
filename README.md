@@ -2,6 +2,8 @@
  Developed a deep learning model using Convolutional Neural Network (CNN) and Gated  Recurrent Unit (GRU) to classify player engagement levels based on online gaming behavior.  Achieved 90% prediction accuracy after evaluating multiple model architectures.
 
 ## Step 1: Data Understanding
+  - The dataset is called "Predict Online Gaming Behavior Dataset: Exploring Player Engagement Patterns in Online Gaming."
+  - It was obtained from Kaggle (https://www.kaggle.com/datasets/rabieelkharoua/predict-online-gaming-behavior-dataset).
   - Loaded and inspected the dataset.
   - Visualized both numerical and categorical feature distributions.
 
