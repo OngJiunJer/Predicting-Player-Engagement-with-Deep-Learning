@@ -4,14 +4,14 @@
 ## Step 1: Data Understanding
   - Loaded and inspected the dataset.
   - Visualized both numerical and categorical feature distributions.
-  - Checked for missing values, duplicate records, and outliers.
 
 ## Step 2: Data Preprocessing
-  - Dropped irrelevant columns (e.g., player IDs or unrelated identifiers).
-  - Encoded categorical features using one-hot encoding.
-  - Normalized numerical features using standard scaling.
+  - Dropped irrelevant columns (e.g., player IDs).
+  - Convert Multiple Columns from Categorical to Numeric Columns.
+  - Convert Engagement Level Column From Categorical to Numeric Column (Target Variable).
   - Balanced the dataset using random undersampling to handle class imbalance.
-  - Converted the target variable (EngagementLevel) into a categorical format.
+  - Normalized numerical features using standard scaling.
+  - Apply one-hot encoding to the Engagement Level Column (target variable).
   - Split the dataset into training and test sets (typically 80/20).
 
 ## Step 3: Model Building
